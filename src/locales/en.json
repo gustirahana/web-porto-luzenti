@@ -1,0 +1,20 @@
+{
+  "language": {
+    "english": "International (English)",
+    "indonesian": "Indonesian (ID)"
+  },
+  "navbar": {
+    "about": "About",
+    "product": "Products",
+    "files": "Files",
+    "blogs": "Blogs",
+    "testimonies": "Testimonies",
+    "faq": "FAQ",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "elevateSkin": "Elevate your skin to serenity with Luzenti.",
+    "experienceLuxury": "Experience the Ultimate in Luxurious Calmness.",
+    "shopNow": "Shop Now"
+  }
+}

@@ -1,0 +1,78 @@
+@media (min-width: 1024px) {
+    @keyframes zoomInOut {
+        0% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .bgZoom {
+        animation: zoomInOut 1s ease-out forwards;
+    }
+
+    .bgZoom2 {
+        animation: zoomInOut 5s ease-out forwards;
+    }
+
+    @keyframes zoomLinear {
+        0% {
+            transform: scale(1.2);
+            background-position: 0% 0%;
+        }
+        100% {
+            transform: scale(1);
+            background-position: 0% 0%;
+        }
+    }
+
+    .bgZoomLinear {
+        animation: zoomLinear 10s linear infinite; /* Adjust animation duration and timing function */
+    }
+
+    @keyframes fadeInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .fadeInAnimation {
+        animation: fadeInLeft 0.5s ease-out forwards;
+    }
+
+    .delay-1 {
+        animation-delay: 0.5s;
+    }
+
+    .delay-2 {
+        animation-delay: 1s;
+    }
+
+    .delay-3 {
+        animation-delay: 1.5s;
+    }
+
+    @keyframes zoomIn {
+        0% { transform: scale(0.9); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+        0% { transform: translateY(20px); opacity: 0; }
+        100% { transform: translateY(0); opacity: 1; }
+    }
+
+    .animate-zoomIn {
+        animation: zoomIn 1s ease-in-out forwards;
+    }
+
+    .animate-fadeInUp {
+        animation: fadeInUp 1s ease-in-out forwards;
+    }
+}

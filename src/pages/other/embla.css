@@ -1,0 +1,37 @@
+.embla {
+    max-width: 70rem;
+    margin: auto;
+    --slide-height: 19rem; /* Height of each slide */
+    --slide-spacing: 1rem; /* Space between slides */
+    --slide-size: calc(100% / 3); /* 3 slides per view */
+}
+
+.embla__viewport {
+    overflow: hidden;
+    height: calc(var(--slide-height) * 3 + var(--slide-spacing) * 2); /* Adjust height to fit 3 slides */
+}
+
+.embla__container {
+    display: flex;
+    flex-direction: column; /* Vertical direction for slides */
+    touch-action: pan-y; /* Allow vertical scrolling */
+    margin-top: calc(var(--slide-spacing) * -1); /* Adjust margin to account for spacing */
+}
+
+.embla__slide {
+    flex: 0 0 var(--slide-height); /* Height of each slide */
+    padding-top: var(--slide-spacing); /* Space between slides */
+    box-sizing: border-box; /* Ensure padding is included in height */
+}
+
+@media (min-width: 750px) {
+    .embla__viewport {
+        height: calc(var(--slide-height) * 3 + var(--slide-spacing-sm) * 2); /* Adjust for larger spacing if needed */
+    }
+}
+
+@media (min-width: 1200px) {
+    .embla__viewport {
+        height: calc(var(--slide-height) * 3 + var(--slide-spacing-lg) * 2); /* Adjust for larger spacing if needed */
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "language": {
+    "english": "Internasional (Inggris)",
+    "indonesian": "Bahasa Indonesia (ID)"
+  },
+  "navbar": {
+    "about": "Tentang Kami",
+    "product": "Produk",
+    "files": "Files",
+    "blogs": "Blog",
+    "testimonies": "Testimoni",
+    "faq": "FAQ",
+    "contactUs": "Hubungi Kami"
+  },
+  "home": {
+    "elevateSkin": "Bawa kulit Anda menuju ketenangan dengan Luzenti.",
+    "experienceLuxury": "Nikmati kemewahan yang menenangkan.",
+    "shopNow": "Belanja Sekarang"
+  }
+}
